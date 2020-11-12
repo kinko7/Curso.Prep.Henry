@@ -1,0 +1,2 @@
+Conceptos.txt
+Array o Arreglo es una lista de elemntos guardadas como si fuera una variable donde podes meter cualquier tipo de elemetos, booleanos, null, funtcion, operadores matematicos etc. A cada elemento se le asigna un orden con un numero donde uno puedo citarlo solo con escribir el codigo de ese numero. Todo esto en una misma linea de codigo. 

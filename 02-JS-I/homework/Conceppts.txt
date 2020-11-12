@@ -1,0 +1,14 @@
+Variables : 
+Las variable son datos que uno guarda para volver a usarlos cuando lo necesite de manera agil.
+Es un opcion para definir con un (nombre), una palabra, una frase o un numero, de modo que cuando quieras volver a escribir esa palabra ,frase o numero, solo escribas ese (nombre) que elegiste y listo. El resto te lo escribe solo.
+
+Strings: 
+
+Son variables exclusivamente para texto.
+
+Funciones, argumentos, return: 
+Las funciones estan muy buenas porque por ejemplo. Si vos vas a hacer ensalada de frutas y tenes varios tipos, una con frutilla y pera, otra con durazno y banana etc y las vas a vender a diferentes precios, escribis una funcion con todos esos datos una sola vez , definida con un (nombre) y cuando quieras volver a describir todas las variedades y precios de las ensaladas de frutas con que escribas una sola palabra, listo, te aparece el resto con toda la info.-
+
+Declaraciones IF : If , Si (en ingles) ..tal cosa...es un condicional. Por ejemplo , IF vas hoy a la escuela, vas a ver a tus compañeros, IF no vas, no. 
+
+Valores BOOlEANOS : Son afirmaciones TRUE OR FALSE ante una accion. Ejemplo. Si tomas sol, sin protector, vas a insolarte.(TRUE) Si usas protector,tambien. (FASE)

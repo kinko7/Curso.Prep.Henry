@@ -1,0 +1,2 @@
+Concepts.txt
+Los operadores logicos, son declaraciones que nos dan un resultado si se cumple o no una declaracion segun los operandos con lo que se la declaro. Siempre nos deveulve valor Booleano, true or false.
