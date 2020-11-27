@@ -12,8 +12,8 @@ function sumarArray(numeros, cb) {
     //numeros es un array y un callback que es funcion
     // ir pasando argumerntos dela array a cb
     // le paso al cb el total de la suma
-    var suma = numeros.reduce(function(ele, nu) {
-        return ele + nu;
+    const suma = numeros.reduce(function(acc, elemento) {
+        return acc + elemento;
     }, 0);
     cb(suma);
 }
@@ -23,9 +23,9 @@ function forEach(array, cb) {
     // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
     //for ( let i = 0, i<array.length;i++){
     //cb(array[i]); //le voy pasando los argumentos
-    for (var i = 0; i < array.length; i++) {
-        cb(array[i]);
-    }
+    array.forEach(function(elementos, indice) {
+        cb(elementos);
+    });
 }
 
 function map(array, cb) {
@@ -40,8 +40,8 @@ function map(array, cb) {
     //   nuevoArray.push(cb(array[i]));
     //   nuevoArray[i] = cb(array[i]);
     // }
-    var nuevoArray = array.map(function(elemento) {
-        return cb(elemento);
+    var nuevoArray = array.map(function(e) {
+        return cb(e);
     });
     return nuevoArray;
 }

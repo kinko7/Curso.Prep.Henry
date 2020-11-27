@@ -1,0 +1,43 @@
+
+nombre= "carlos";
+apellido="mar;"
+class Persona { 
+constructor (nombre,apellido) { 
+this.nombre=nombre;
+this.apellido=apellido;
+}
+
+saludar(){return "hola ""
++ this.nombre}
+getnombre(){return this.nombre}
+
+
+
+
+class Empleado extends Persona{
+	constructor (nombre,apellido,empleado,sueldo)
+super (nombre,apellido);
+this.empleado=empleado;
+this.sueldo=sueldo;
+}
+}
+
+var rene= new Empleado("rene","marletta","developer",500);
+
+//////////////////////////////////////////////
+
+
+var max = numeros[0];
+    var min = numeros[0];
+function menorMayor(numeros) {
+
+var max = numeros[0];
+    var min = numeros[0];
+ for (var i = 1; i < numeros.length; i++) {
+        if (numeros[i] < min) min = numeros[i]
+    } {
+        if (numeros[i] > max) max = numeros[i]
+    } {
+        return [min[], max[]];
+    }
+}
